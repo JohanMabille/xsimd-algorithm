@@ -1,0 +1,8 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+libdir=@libdir_for_pc_file@
+includedir=@includedir_for_pc_file@
+
+Name: xsimd-algorithm
+Description: xsimd-algorithm provides STL-like algorithms vectorized with xsimd
+Version: @xsimd-algorithm_VERSION@
+Cflags: -I${includedir}
